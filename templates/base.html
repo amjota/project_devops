@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  {% include 'partials/_head.html' %}
+  <title>{% block titulo %}{% endblock %}Andre de Melo Jota</title>
+</head>
+
+<body>
+
+  <!-- Inicio NavBar-->
+
+  {% include 'partials/_header.html' %}
+
+  <!-- Fim NavBar-->
+<main class="content">
+   {% block content %}{% endblock content %}
+   
+</main>
+
+<!-- Inicio do FOOTER -->
+  
+  {% include 'partials/_footer.html' %}
+
+<!-- Fim do FOOTER -->
+
+</body>
+</html>
