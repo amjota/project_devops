@@ -41,7 +41,7 @@ Substitua /dev/sdX1 pela partição que você acabou de criar (geralmente, será
 Agora, crie um diretório onde o disco será montado. Como você mencionou que ele será utilizado para armazenar dados do Nextcloud, podemos montá-lo diretamente no diretório de dados do Nextcloud.
 
 ```bash
-mkdir -p /mnt/data
+sudo mkdir -p /mnt/data
 ```
 5. ### Montar o novo disco
 Monte o novo disco no ponto de montagem criado:
