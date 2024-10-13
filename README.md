@@ -1,1 +1,1 @@
-# amjota.github.io
+# Projetos servidores Linux Debian 12 Bookworm dedicados para Analise de Dados.
