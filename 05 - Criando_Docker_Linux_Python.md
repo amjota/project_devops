@@ -17,7 +17,7 @@ sudo nano Dockerfile
 FROM ubuntu:20.04
 
 # Informar o mantenedor da imagem
-LABEL maintainer="Amjota andrejota@amjota.com.br"
+LABEL maintainer="user seuemail@dominio.com.br"
 
 # Evitar prompts durante a instalação
 ARG DEBIAN_FRONTEND=noninteractive
