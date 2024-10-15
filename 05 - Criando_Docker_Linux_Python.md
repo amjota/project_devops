@@ -39,13 +39,13 @@ RUN useradd -ms /bin/bash amjota
 WORKDIR /workspace
 
 # Alterar a propriedade do diretório para o usuário amjota
-RUN chown -R amjota:amjota /workspace
+RUN chown -R seuuser:seuuser /workspace
 
 # Copiar o arquivo requirements.txt para o contêiner
 # COPY requirements.txt /workspace/
 
 # Instalar as dependências Python com o usuário amjota
-# USER amjota
+# USER seuuser
 # RUN pip3 install --user -r requirements.txt
 
 # Definir o comando padrão para rodar o contêiner
