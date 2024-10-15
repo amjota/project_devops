@@ -10,7 +10,7 @@ docker pull mcr.microsoft.com/mssql/server:2019-latest
 
 ```bash
 docker run -e 'ACCEPT_EULA=Y' \
-  -e 'SA_PASSWORD=Julia2@224_' \
+  -e 'SA_PASSWORD=(Suasenhaforte)' \
   -p 1433:1433 \
   --name sql-amjota \
   -v /mnt/data/sql-amjota:/var/opt/mssql/data \
