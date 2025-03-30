@@ -3,7 +3,7 @@
 #### A imagem oficial do SQL Server 2019 para Linux está disponível no Docker Hub. Para baixá-la, execute o seguinte comando:
 
 ```bash
-docker pull mcr.microsoft.com/mssql/server:2019-latest
+docker pull mcr.microsoft.com/mssql/server:2022-latest
 ```
 
 #### Depois de baixar a imagem, você pode rodar um contêiner com o SQL Server usando o seguinte comando:
@@ -15,7 +15,7 @@ docker run -e 'ACCEPT_EULA=Y' \
   --name sql-amjota \
   -v /mnt/data/sql-amjota:/var/opt/mssql/data \
   --restart unless-stopped \
-  -d mcr.microsoft.com/mssql/server:2019-latest
+  -d mcr.microsoft.com/mssql/server:2022-latest
 ```
 
 ## Aqui está o que cada parte do comando faz:
